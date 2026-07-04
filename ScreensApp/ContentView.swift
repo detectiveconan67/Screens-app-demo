@@ -2,20 +2,22 @@
 //  ContentView.swift
 //  ScreensApp
 //
-//  Created by YU HUA on 4/7/26.
+//  Created by Jing Hi on 4/7/26.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color.mint
+            Text("Jing Hi")
+            .font(.largeTitle)
+            .foregroundStyle(.gray)
+            
+                
         }
-        .padding()
+        .ignoresSafeArea()
     }
 }
 
