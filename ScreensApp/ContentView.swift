@@ -11,9 +11,9 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color.mint
-            Text("Jing Hi")
+            Text("SKIBI")
             .font(.largeTitle)
-            .foregroundStyle(.gray)
+            .foregroundStyle(.blue)
             
                 
         }
